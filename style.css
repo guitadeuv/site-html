@@ -1,0 +1,213 @@
+/**** estrutura site ***/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #fff url(imagens/fundo.png) repeat-x;
+}
+
+
+#container {
+    width: 750px;
+    margin: 0 auto;
+
+}
+
+    /***** inicio topo *****/
+
+#topo {
+    height: 150px;
+    background: url(imagens/detalhe-topo.png) no-repeat right;
+    padding-top: 25px;
+}
+
+.logo {
+    background: url(imagens/logo.png) no-repeat left;
+    width: 152px;
+    height: 66px;
+}
+
+/****barra de navegacao****/
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#topo ul {
+    background: #b10333;
+    margin-top: 30px;
+    float: left;
+}
+
+#topo ul li {
+    float: left;
+   
+}
+
+#topo ul a {
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em  1.5em;
+    line-height: 2.1em;
+    text-decoration: none;
+    color: white;
+    background:url(imagens/divisor.png)no-repeat left;
+}
+
+#topo ul .primeiro a {
+    background: none;
+}
+
+#topo ul a:hover {
+    color: #69001d;
+}
+
+body.home #navegacao a#home,
+body.brasil #navegacao a#brasil,
+body.internacional #navegacao a#internacional,
+body.economia #navegacao a#economia,
+body.saude #navegacao a#saude,
+body.ciencia #navegacao a#ciencia,
+body.fotos #navegacao a#fotos {
+    color: #fff;
+    background: #de003e;
+    cursor: text;
+} /****fim topo****/
+
+/****inicio conteudo****/
+#conteudo {
+    background:#f5f5f5;
+    margin-top: 60px;
+}
+
+#primario {
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 195px;
+}
+
+#duas-colunas #primario {
+    width: 555px;
+    float: left;
+    margin: 0 0 20px 195px;
+}
+
+#uma-coluna #primario {
+    width: 720px;
+    float: left;
+    margin: 0 0 20px 0;
+}
+
+#secundario {
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 15px;
+}
+
+/*** caixa lateral ***/
+#lateral {
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+}
+
+/*caixa*/
+.caixa {
+    background: url(imagens/fundo-caixa.png);
+    margin: 10px 0;
+    padding: 5px;
+}
+
+h2 {
+    background: #294c71;
+    color: white;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.caixa-conteudo {
+    background: white;
+    padding: 5px;
+    margin-top: 5px;
+}
+/*link lateral*/
+#lateral ul a {
+    padding: 3px;
+    text-decoration: none;
+    color: black;
+    display: block;
+    line-height: 30px;
+    border-bottom: 1px solid white;
+}
+
+#lateral ul a:hover {
+    color: grey;
+    background: url(imagens/marcador.png) no-repeat left center;
+    padding-left: 20px;
+}
+
+/*news*/
+input {
+    padding: 5px;
+}
+
+input.submit {
+    color: white;
+    background: #b10333;
+    border: 2px solid #870559;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/*imagens*/
+img.imagem-principal{
+    border: 3px solid #dfdfdf;
+    width: 98%;
+    margin-top: 5px;
+}
+
+/*lista de noticias*/
+#lista-noticias li {
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+    height: 65px;
+}
+
+#lista-noticias li a img {
+    float: left;
+    margin: 5px;
+}
+
+#lista-noticias li a {
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+#lista-noticias li a h3 {
+    color: #3e7ab9;
+}
+
+#lista-noticias li a p {
+    color: black;
+}
+
+#lista-noticias li:hover {
+    background: #eee;
+}
+
+/**** rodape ****/
+#container-rodape {
+    clear: both;
+    background: #294c71;  
+    padding: 20px;
+}
+
+#rodape {
+    width: 750px;
+    margin: 0 auto;
+    color: white;
